@@ -1,0 +1,97 @@
+* {
+    font-family: "roboto";
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #1f2937;
+    color: white;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Navbar */
+
+.navigation, .banner p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 64px;
+}
+
+.navigation {
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+}
+
+/* Banner & Sign-up */
+
+.banner {
+    background-color: #1f2937;
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+}
+
+.banner h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.info_container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 32px;
+}
+
+.img_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border-color:#1f2937
+}
+
+/* Testimonials */
+
+.testimonials {
+    background-color: #e5e7eb;
+}
+
+.testimonials p {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+/* Call To Action */
+
+.action {
+    font-size: 36px;
+    font-weight: bolder;
+}
