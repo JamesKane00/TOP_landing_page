@@ -10,15 +10,12 @@ header {
     background-color: #1f2937;
     color: white;
     margin: 0;
-}
-
-h1 {
-    margin: 0;
+    padding: 0px 64px;
 }
 
 /* Navbar */
 
-.navigation, .banner p {
+.navigation {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -47,36 +44,71 @@ h1 {
 .banner {
     background-color: #1f2937;
     color: white;
-    margin: 0;
     display: flex;
-    justify-content: center;
-    padding: 32px;
+    padding: 64px 128px;
 }
 
-.banner h1 {
-    font-size: 36px;
+.info-container h1 {
+    font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin: 0;
 }
 
-.info_container {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    padding: 32px;
+.info-container p {
+    font-size: 18px;
+    color: #a3a3a3;
 }
 
-.img_container {
+.signup {
+    background-color: #3882f6;
+    border-color: #1f2937;
+    border-radius: 8px;
+}
+
+.info-container {
+    display: inline;
+    text-align: left;
+    margin-right: 32px;
+}
+
+/* Cards */
+
+.random_info {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.signup {
-    background-color: #3882f6;
-    border-radius: 8px;
-    border-color:#1f2937
+    padding: 12px;
 }
 
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 128px;
+    flex-basis: 50%;
+    gap: 66px;
+}
+
+
+.card {
+    border: #3882f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card img {
+    width: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+
+.card p {
+    color: #1f2937;
+}
 /* Testimonials */
 
 .testimonials {
@@ -86,6 +118,7 @@ h1 {
 .testimonials p {
     color: #1f2937;
     font-size: 36px;
+    font-weight:lighter;
     font-style: italic;
 }
 
