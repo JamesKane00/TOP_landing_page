@@ -10,7 +10,6 @@ header {
     background-color: #1f2937;
     color: white;
     margin: 0;
-    padding: 0px 64px;
 }
 
 /* Navbar */
@@ -30,7 +29,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 64px;
+    padding: 0px 64px;
 }
 
 .navigation {
@@ -45,7 +44,8 @@ header {
     background-color: #1f2937;
     color: white;
     display: flex;
-    padding: 64px 128px;
+    justify-content: center;
+    padding: 64px 64px;;
 }
 
 .info-container h1 {
@@ -58,19 +58,25 @@ header {
 .info-container p {
     font-size: 18px;
     color: #a3a3a3;
+    max-width: 500px;
 }
 
 .signup {
+    padding: 4px;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
     background-color: #3882f6;
-    border-color: #1f2937;
+    border: 1px solid #1f2937;
     border-radius: 8px;
+    color: white;
 }
 
 .info-container {
-    display: inline;
     text-align: left;
-    margin-right: 32px;
+    padding-right: 64px;
 }
+
 
 /* Cards */
 
@@ -113,18 +119,68 @@ header {
 
 .testimonials {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
 }
 
 .testimonials p {
     color: #1f2937;
     font-size: 36px;
-    font-weight:lighter;
-    font-style: italic;
+    font-weight: initial;
+    padding: 12px 128px 0px 128px;
+}
+
+.testimonials h3 {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 160px;
+    margin-top: 0;
 }
 
 /* Call To Action */
 
+.signup-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 100px;
+}
+.call {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    padding: 12px 48px;
+    border-radius: 8px;
+}
+
+.call button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+}
+
 .action {
-    font-size: 36px;
+    color: white;
+    font-size: 24px;
     font-weight: bolder;
+}
+
+.call > * {
+    color: white;
+}
+
+/* Footer */ 
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
 }
