@@ -77,6 +77,11 @@ header {
     padding-right: 64px;
 }
 
+.card img {
+    height: 150px;
+    padding: 8px;
+}
+
 
 /* Cards */
 
